@@ -1,0 +1,63 @@
+{
+  "collaboration_panel": {
+    "dock": "right"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "project_panel": {
+    "dock": "right"
+  },
+  "features": {
+    "inline_completion_provider": "none"
+  },
+  "telemetry": {
+    "metrics": false
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 16.5,
+  "buffer_font_family": "JetBrainsMono Nerd Font Propo",
+  "terminal": {
+    "font_weight": 500
+  },
+  "theme": {
+    "mode": "system",
+    "light": "Oxocarbon Dark (Variant I)",
+    "dark": "Oxocarbon Dark (Variation III)"
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+    "selections_menu": false
+  },
+  "tabs": {
+    "file_icons": true
+  },
+  "languages": {
+    "HTML": {
+      "format_on_save": "off"
+    },
+    "CSS": {
+      "format_on_save": "off"
+    },
+    "Python": {
+      "language_servers": ["ruff", "pyright"],
+      "formatter": [
+        {
+          "code_actions": {
+            "source.organizeImports.ruff": true,
+            "source.fixAll.ruff": true
+          }
+        },
+        {
+          "language_server": {
+            "name": "ruff"
+          }
+        }
+      ]
+    }
+  }
+}
