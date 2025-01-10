@@ -5,7 +5,7 @@ export XDG_CONFIG_HOME="$HOME/.config"
 
 ZSH_THEME="robbyrussell"
 
-plugins=(git asdf poetry rustup cargo deno hugo)
+plugins=(git asdf poetry rustup cargo deno hugo zellij)
 
 export BREW_PATH=/opt/homebrew/bin
 export PATH=$PATH:$BREW_PATH:~/.cargo/bin/
