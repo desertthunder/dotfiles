@@ -18,10 +18,10 @@ return {
         "bluz71/vim-moonfly-colors",
         name = "moonfly",
         lazy = true,
-        priority = 1000,
-        init = function()
-            vim.cmd.colorscheme("moonfly")
-        end,
+        -- priority = 1000,
+        -- init = function()
+        --     vim.cmd.colorscheme("moonfly")
+        -- end,
     },
     {
         "bluz71/vim-nightfly-colors",
@@ -35,10 +35,11 @@ return {
     {
         "EdenEast/nightfox.nvim",
         lazy = true,
-        --     priority = 1000,
-        --     init = function()
-        --         vim.cmd.colorscheme("carbonfox")
-        --     end,
+        priority = 1000,
+        init = function()
+            -- vim.cmd.colorscheme("carbonfox")
+            vim.cmd.colorscheme("duskfox")
+        end,
     },
     {
         "folke/todo-comments.nvim",
