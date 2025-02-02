@@ -1,4 +1,9 @@
-return { -- Linting
+-- Linting configuration
+--
+-- Some things to keep in mind:
+--  - markdownlint-cli2 looks for the nearest .markdownlint.* file
+--    so make sure to have one in your project root.
+return {
     "mfussenegger/nvim-lint",
     event = { "BufReadPre", "BufNewFile" },
     config = function()
@@ -43,6 +48,7 @@ return { -- Linting
         -- on the specified events.
         local lint_augroup =
             vim.api.nvim_create_augroup("lint", { clear = true })
+
         vim.api.nvim_create_autocmd(
             { "BufEnter", "BufWritePost", "InsertLeave" },
             {
