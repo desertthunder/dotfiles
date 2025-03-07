@@ -25,7 +25,7 @@ vim.opt.showmode = false
 --  Schedule the setting after `UiEnter` because it can increase startup-time.
 --  See `:help 'clipboard'`
 vim.schedule(function()
-    vim.opt.clipboard = "unnamedplus"
+	vim.opt.clipboard = "unnamedplus"
 end)
 
 -- Enable break indent
@@ -71,12 +71,12 @@ vim.opt.scrolloff = 10
 --
 -- See `:h 'fillchars'`
 vim.opt.fillchars = {
-    vert = "▕", -- alternatives │
-    fold = " ",
-    eob = " ", -- suppress ~ at EndOfBuffer !IMPORTANT
-    diff = "╱", -- alternatives = ⣿ ░ ─
-    msgsep = "‾",
-    foldopen = "▾",
-    foldsep = "│",
-    foldclose = "▸",
+	vert = "▕", -- alternatives │
+	fold = " ",
+	eob = " ", -- suppress ~ at EndOfBuffer !IMPORTANT
+	diff = "╱", -- alternatives = ⣿ ░ ─
+	msgsep = "‾",
+	foldopen = "▾",
+	foldsep = "│",
+	foldclose = "▸",
 }
