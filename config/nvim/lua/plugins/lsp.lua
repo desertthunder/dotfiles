@@ -261,6 +261,7 @@ return {
             "gofumpt",
             "markdownlint-cli2",
             "markdown-toc",
+            "prettier"
         })
 
         require("mason-tool-installer").setup({

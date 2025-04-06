@@ -59,7 +59,7 @@ return {
         formatters_by_ft = {
             lua = { "stylua" },
             go = { "goimports", "gofumpt" },
-            markdown = { "markdownlint-cli2", "markdown-toc" },
+            markdown = { "prettier", "markdownlint-cli2", "markdown-toc" },
         },
     },
 }

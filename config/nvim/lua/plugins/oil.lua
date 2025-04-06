@@ -1,3 +1,5 @@
+---@diagnostic disable: undefined-doc-name
+
 return {
     {
         "stevearc/oil.nvim",
